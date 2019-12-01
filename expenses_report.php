@@ -2,7 +2,7 @@
 	require('vendor/fpdf/fpdf.php');
 
 	$connect = mysqli_connect('localhost','root','');
-	mysqli_select_db($connect,'egm_invoice2');
+	mysqli_select_db($connect,'egm_expense');
 
 
 	class PDF extends FPDF {
